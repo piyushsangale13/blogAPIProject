@@ -47,30 +47,24 @@ npm install
 ## Usage
 
 
-1. **Run the Server:**
-   Start the server by running the following command in the terminal.
+1. Start the server by running the following command in the terminal.
 
    ```bash
    node ./index.js
    ```
 
-2. **Start the Application:**
-   Open a new terminal and run the following command to start the application.
+2. Open a new terminal and run the following command to start the application.
 
    ```bash
    node ./server.js
    ```
-3. **Access the Application:**
-   Open your web browser and go to [http://localhost:3000](http://localhost:3000) to access the Blog Website.
+3. Open your web browser and go to [http://localhost:3000](http://localhost:3000) to access the Blog Website.
 
 
 ## Contributing
 
 Contributions are welcome!.
 
-
-
----
 
 ## Contact
 
