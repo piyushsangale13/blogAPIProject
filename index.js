@@ -51,14 +51,14 @@ app.get("/posts/:id", (req, res) => {
   res.json(post);
 });
 // POST a new post
-app.post("/posts", (req, res) => {
+  app.post("/posts", (req, res) => {
   const newId = lastId+1;
   const newPost = {
     id: newId,
     title: req.body.title,
     content: req.body.content,
     author: req.body.author,
-    date: req.body.datae
+    date: new Date()
   }
   lastId = newId;
   posts.push(newPost);
